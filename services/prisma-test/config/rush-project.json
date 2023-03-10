@@ -1,0 +1,13 @@
+{
+    "operationSettings": [
+        // added .heft per https://github.com/microsoft/rushstack/issues/3436
+        {
+            "operationName": "_phase:build",
+            "outputFolderNames": ["lib", "temp", "dist", ".heft", "src/__generated__"]
+        },
+        {
+            "operationName": "_phase:test",
+            "outputFolderNames": []
+        }
+    ]
+}
