@@ -10,11 +10,11 @@
         "run": "prisma generate && heft build --clean && cp -r ./src/__generated__ ./lib && node ./lib/index.js"
     },
     "dependencies": {
-        "@prisma/client": "~4.11.0",
+        "@prisma/client": "~5.7.0",
         "@rushstack/heft": "~0.49.7"
     },
     "devDependencies": {
-        "prisma": "~4.11.0",
+        "prisma": "~5.7.0",
         "typescript": "~4.9.3"
     },
     "prisma": {}
